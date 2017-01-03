@@ -20,7 +20,7 @@ The checkIp function returns either a struct if only one report exists within th
     ip: This simply reflects the ip address you requested
     country: The name of the country where this IP is assigned
     isoCode: The 2-letter ISO country code for the country
-    category: An array of integer category id's (see: [categories](https://abuseipdb.com/categories))
+    category: An array of integer category id's
     created: The date and time of the report
 
 You can pass an optional `days` argument to checkIp to set the number of days back to report on. The default is 30 days.
